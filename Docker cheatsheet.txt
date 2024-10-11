@@ -8,6 +8,10 @@
 2) docker image <Image ID> -t <Image Name>  --- docker Images tag
 
 3) docker images ls --- show all docker images
+  delete all images command 
+  docker rm $(docker ps -a -q)
+
+
 
 4) docker pull <Image> --- pull image from registry
 
@@ -22,6 +26,8 @@
 9) docker run <image> --- pull and start the container
 
 10) docker run -d <image> -- runs containers of detach mode (forground uses)
+  docker all delete container command 
+   docker rm $(docker ps -a -q)
 
 11) docker rm <con_id> --- removes container 
 
